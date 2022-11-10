@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    background-image: linear-gradient(to right, rgb(218, 218, 164) , rgb(121, 194, 121) , rgb(199, 147, 147)) ;
+}
+.slider_div {
+    background-color: rgb(5, 68, 104) ;
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+}
+.profile_div {
+    width: 100%;
+}
+.img_div {
+    padding: 10px 20px 10px;
+}
+.img {
+    width: 100%;
+    border-radius: 50%;
+}
+.intro_div {
+    text-align: center;
+}
+h2,p {
+    /* color: black; */
+    margin-bottom: 0px;
+    color: aliceblue;
+}
+.slide_item_ls{
+    margin-top: 25px;
+}
+.slide_itm {
+    color: white;
+    width: 100%;
+    height:40px ;
+    background-color: rgb(5, 68, 104);
+    padding: 8px 40px;
+    font-size: 15px;
+    border-bottom: 1px solid white;
+}
+.slide_itm:hover{
+    background-color: rgb(4, 57, 87);
+    border-bottom: 1px solid rgb(17, 95, 141);
+    cursor: pointer;
+}
+.body{
+    margin-top: 0;
+    padding-left: 17.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body_item{
+    margin-left: 7px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.role,.role_textarea,.role_check,.check_item{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.lable {
+    width: 25%;
+    height: 100%;
+    font-size: 16px;
+    padding: 8px 14px;
+}
+.input_div{
+    width: 73%;
+    height: 100%;
+    width: 100%;
+
+}
+.input_tag,.select_tag {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 15px;
+}
+.role_textarea{
+    height: 120px;
+}
+.input_div_textarea{
+    width: 100%;
+    height: 100%;
+}
+.textarea_tag {
+    width: 100%;
+    resize: none;
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.select_tag{
+    padding: 0;
+}
+.role_check{
+    height: 100px;
+}
+.check_div{
+    width: 100%;
+    height: 100%;
+}
+.check_item{
+    padding: 10px;
+    border: 1px solid black;
+    height: 80px;
+}
+
+#field_1,#field_2{
+    border: none;
+    margin-top: 3px;
+}
+#field_2{
+    display: none;
+}
+#checkbox_tag:checked ~ #field_1{
+    display: none;
+}
+#checkbox_tag:checked ~ #field_2{
+    display: block;
+}
+.input_div_radio{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+.submit_buttom{
+    width: 80px;
+    height: 100%;
+    background-color: rgb(55, 177, 39);
+    border-radius: 5px;
+}
